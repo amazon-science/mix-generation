@@ -41,11 +41,13 @@ python -m torch.distributed.launch --nproc_per_node=8 --use_env Pretrain.py
 
 If you find MixGen useful in your research, please kindly consider to cite the following paper.
 ```
-@article{mixgen2022,
-  title={MixGen: A New Multi-Modal Data Augmentation},
-  author={Xiaoshuai Hao and Yi Zhu and Srikar Appalaraju and Aston Zhang and Wanqian Zhang and Bo Li and Mu Li},
-  journal={arXiv preprint arXiv:2206.08358},
-  year={2022}
+@InProceedings{Hao_2023_WACV,
+    author    = {Hao, Xiaoshuai and Zhu, Yi and Appalaraju, Srikar and Zhang, Aston and Zhang, Wanqian and Li, Bo and Li, Mu},
+    title     = {MixGen: A New Multi-Modal Data Augmentation},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) Workshops},
+    month     = {January},
+    year      = {2023},
+    pages     = {379-389}
 }
 ```
 
