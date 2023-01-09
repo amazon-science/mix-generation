@@ -37,6 +37,20 @@ And that's it!!! No more changes needed to be made. You can simply kicoff traini
 python -m torch.distributed.launch --nproc_per_node=8 --use_env Pretrain.py
 ```
 
+## Citation
+
+If you find MixGen useful in your research, please kindly consider to cite the following paper.
+```
+@InProceedings{Hao_2023_WACV,
+    author    = {Hao, Xiaoshuai and Zhu, Yi and Appalaraju, Srikar and Zhang, Aston and Zhang, Wanqian and Li, Bo and Li, Mu},
+    title     = {MixGen: A New Multi-Modal Data Augmentation},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) Workshops},
+    month     = {January},
+    year      = {2023},
+    pages     = {379-389}
+}
+```
+
 
 ## Security
 
